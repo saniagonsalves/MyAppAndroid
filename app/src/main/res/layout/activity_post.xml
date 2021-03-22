@@ -14,7 +14,7 @@
         style="@style/titletext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/firstlabel"
+        android:text="Post Feedback"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bigpad"
                 android:fontFamily="sans-serif-black"
-                android:text="@string/titletext" />
+                android:text="   Did you like the food?" />
 
             <EditText
                 android:id="@+id/entertitletextview"
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bigpad"
                 android:fontFamily="sans-serif-black"
-                android:text="@string/storytext" />
+                android:text="   Food Review" />
 
             <EditText
                 android:id="@+id/editTextMultiLine"
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/bigpad"
                 android:fontFamily="sans-serif-black"
-                android:text="@string/enterimagetext" />
+                android:text="   Upload your food photos" />
 
             <ImageView
                 android:id="@+id/uploadimageView"
